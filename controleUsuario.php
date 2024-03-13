@@ -14,36 +14,4 @@ $x->cadastrarUsuario($tipo, $email, $senha);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>

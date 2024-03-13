@@ -15,10 +15,9 @@ class Registro{
     
     }
 
-    
-
-
 }
+
+
 
 ?>
 

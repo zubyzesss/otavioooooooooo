@@ -1,5 +1,7 @@
 <?php
 
+
+
 Class Aluno{
 
     public function CadastrarAluno($nome, $turma, $ano){
@@ -13,13 +15,10 @@ Class Aluno{
        
     }
 
-    public function listarAluno(){
-        session_start();
-        $ano = $_SESSION['ano'] ;
-        $turma = $_SESSION['turma'];
+    public function listarAluno($ano, $turma){
 
         $pdo = new PDO("mysql:host=localhost; dbname=registro_atraso","root","");
-        $consulta = "select * from aluno where :turma = turma and :ano = ano;";
+        $consulta = "select * from aluno where :turma = turma and :ano = ano";
         $consultafeita = $pdo->prepare($consulta);
         $consultafeita->bindValue(":turma", $turma);
         $consultafeita->bindValue(":ano", $ano);
@@ -54,5 +53,7 @@ Class Aluno{
     }
 
 }
+
+
 
 ?>

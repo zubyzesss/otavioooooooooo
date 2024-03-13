@@ -14,46 +14,32 @@ class Usuario{
         $consultar->execute();
     }
 
+    public function listarUsuario(){
+        $pdo = new PDO("mysql:host=localhost; dbname=registro_atraso","root","");
+        $consulta = "select * from usuario order by tipo, email;";
+        $consultafeita = $pdo->prepare($consulta);
+        $consultafeita->execute();
+            echo '<center>
+            <table border=1>
+            <tr>
+                <th colspan=2>
+                Relatório de Usuários
+                </th>
+                </tr>
+            <tr>
+                <th>Email</th>
+                <th>Tipo</th>                           
+            </tr>'
+            ;
 
-
-
-
-
-public function listarUsuario(){
-    $pdo = new PDO("mysql:host=localhost; dbname=registro_atraso","root","");
-    $consulta = "select * from usuario order by tipo, email;";
-    $consultafeita = $pdo->prepare($consulta);
-    $consultafeita->execute();
-        echo '<center>
-        <table border=1>
-        <tr>
-            <th colspan=2>
-            Relatório de Usuários
-            </th>
-            </tr>
-        <tr>
-            <th>Email</th>
-            <th>Tipo</th>                           
-        </tr>'
-        ;
-
-    foreach ($consultafeita as $value) {
-       echo '<tr><td>'.$value['email'] .'</td>';
-       echo  '<td>'.$value['tipo'] .'</tr></td>' ;
+        foreach ($consultafeita as $value) {
+        echo '<tr><td>'.$value['email'] .'</td>';
+        echo  '<td>'.$value['tipo'] .'</tr></td>' ;
+        }
+        echo '</table></center>';
     }
-    echo '</table></center>';
-}
 
 }
-
-
-
-
-
-
-
-
-
 
 
 

@@ -23,4 +23,6 @@ $x->cadastrarRegistro($motivo, $id_aluno);
     
 }
 
+
+
 ?>                                                               

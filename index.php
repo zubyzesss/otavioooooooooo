@@ -7,17 +7,16 @@
   <meta name="generator" content="Mobirise v4.12.4, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/salaberga-164x70.png" type="image/x-icon">
-  <meta name="description" content="Website Builder Description">
+  <meta name="description" content="">
   
   
-  <title>cadastrar_registro</title>
+  <title>Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -28,7 +27,7 @@
 </head>
 <body>
 
-<section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-m">
+<section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,60 +87,64 @@
 </section>
 
 <section class="engine">
-    <a href="https://mobirise.info/e">how to make your own site for free</a>
+    <a href="https://mobirise.info/o">portfolio website templates</a>
 </section>
 
-<section class="header15 cid-u6mHJUgX6Y mbr-fullscreen mbr-parallax-background" id="header15-o">
+<section class="header12 cid-u6mz08eoqf mbr-fullscreen mbr-parallax-background" id="header12-g">
 
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(7, 59, 76);"></div>
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
 
-    <div class="container align-right">
-        <div class="row">
-            <div class="mbr-white col-lg-8 col-md-7 content-container">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Registro de Atraso</h1>
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">
-                    Todos os itens do formulário ao lado são obrigatórios e devem ser preenchidos. Caso seu nome não conste na lista de alunos de sua turma, entre em contato.</p>
-            </div>
-
-            <div class="col-lg-4 col-md-5">
-                <div class="form-container">
-                    <div class="media-container-column">
-
-                        <!---Formbuilder Form--->
-                        <form action="../Control/controleRegistro.php" method="POST">
-                            <div class="row">
-                                
-                                <div class="col-md-12 form-group " >
-                                    <select name="ano" class="form-control">
-                                        <option value="1°">1° ANO</option>
-                                        <option value="2°">2° ANO</option>
-                                        <option value="3°">3° ANO</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-12 form-group ">
-                                    <select name="turma" class="form-control">
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="C">C</option>
-                                        <option value="D">D</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-12 input-group-btn">
-                                    <input type="submit" name="avanco" value="Avançar" id="ipt" class="btn btn-form btn-secondary display-4">
-                                </div>
-
+    <div class="container  ">
+            <div class="media-container">
+                <div class="col-md-12 align-center">
+                    <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1">
+                        Registro de Atraso</h1>
+                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">
+                        Sistemas para registros de atrasos para compromissos dentro do ambiente escolar.</p>
+                    
+                    <div class="icons-media-container mbr-white">
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="icon-block">
+                                <a href="cadastro_aluno.php">
+                                    <span class="mbr-iconfont mbrib-opened-folder"></span>
+                                </a>
                             </div>
+                            <h5 class="mbr-fonts-style display-5">
+                                Cadastro Alunos</h5>
+                        </div>
 
-                        </form>
-                        <!---Formbuilder Form--->
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="icon-block">
+                                <a href="cadastro_registro_1.php">
+                                    <span class="mbr-iconfont mbrib-clock"></span>
+                                </a>
+                            </div>
+                            <h5 class="mbr-fonts-style display-5">
+                                Registro Atraso</h5>
+                        </div>
 
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="icon-block">
+                                <a href="/View/Relatório/relatorio_registro.php">
+                                    <span class="mbr-iconfont mbrib-pages"></span>
+                                </a>
+                            </div>
+                            <h5 class="mbr-fonts-style display-5">
+                                Relatório Atrasos</h5>
+                        </div>
+
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="icon-block">
+                                <a href="/View/Relatório/relatorio.php">
+                                    <span class="mbr-iconfont mbrib-numbered-list"></span>
+                                </a>
+                            </div>
+                            <h5 class="mbr-fonts-style display-5">
+                                Relatório Alunos</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
@@ -151,89 +154,7 @@
     </div>
 </section>
 
-<section class="section-table cid-u6mK5Ch1sI" id="table1-r">
-
-  <div class="container container-table">
-      <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">Relatório de Atraso</h2>
-      <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5">
-            Todos os atrasos até o momento.</h3>
-      <div class="table-wrapper">
-        <div class="container">
-          <div class="row search">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-                <div class="dataTables_filter">
-                  <label class="searchInfo mbr-fonts-style display-7">Search:</label>
-                  <input class="form-control input-sm" disabled="">
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container scroll">
-          <table class="table isSearch" cellspacing="0" data-empty="No matching records found">
-            <thead>
-              <tr class="table-heads ">
-                  
-                  
-                  
-                  
-              <th class="head-item mbr-fonts-style display-7">
-                      Nome</th><th class="head-item mbr-fonts-style display-7">
-                      Ano</th><th class="head-item mbr-fonts-style display-7">
-                      Turma</th><th class="head-item mbr-fonts-style display-7">
-                      Data</th><th class="head-item mbr-fonts-style display-7">
-                      Motivo</th></tr>
-            </thead>
-
-            <tbody>
-              
-              
-              
-              
-            <tr> 
-                
-                
-                
-                
-              <td class="body-item mbr-fonts-style display-7">Jeanna Schmal</td><td class="body-item mbr-fonts-style display-7">44</td><td class="body-item mbr-fonts-style display-7">2016-10-17</td><td class="body-item mbr-fonts-style display-7">2016-10-17</td><td class="body-item mbr-fonts-style display-7">2016-10-17</td></tr><tr>
-                
-                
-                
-                
-              <td class="body-item mbr-fonts-style display-7">Caren Rials</td><td class="body-item mbr-fonts-style display-7">35</td><td class="body-item mbr-fonts-style display-7">2013-04-12</td><td class="body-item mbr-fonts-style display-7">2013-04-12</td><td class="body-item mbr-fonts-style display-7">2013-04-12</td></tr><tr>
-                
-                
-                
-                
-              <td class="body-item mbr-fonts-style display-7">Leon Rogol</td><td class="body-item mbr-fonts-style display-7">66</td><td class="body-item mbr-fonts-style display-7">2016-05-22</td><td class="body-item mbr-fonts-style display-7">2016-05-22</td><td class="body-item mbr-fonts-style display-7">2016-05-22</td></tr><tr>
-                
-                
-                
-                
-              <td class="body-item mbr-fonts-style display-7">Shala Barrera</td><td class="body-item mbr-fonts-style display-7">70</td><td class="body-item mbr-fonts-style display-7">2016-05-15</td><td class="body-item mbr-fonts-style display-7">2016-05-15</td><td class="body-item mbr-fonts-style display-7">2016-05-15</td></tr></tbody>
-          </table>
-        </div>
-        <div class="container table-info-container">
-          <div class="row info">
-            <div class="col-md-6">
-              <div class="dataTables_info mbr-fonts-style display-7">
-                <span class="infoBefore">Showing</span>
-                <span class="inactive infoRows"></span>
-                <span class="infoAfter">entries</span>
-                <span class="infoFilteredBefore">(filtered from</span>
-                <span class="inactive infoRows"></span>
-                <span class="infoFilteredAfter"> total entries)</span>
-              </div>
-            </div>
-            <div class="col-md-6"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
-<section class="cid-u6mIlGyFxI" id="footer1-p">
+<section class="cid-u6mDJdBaMT" id="footer1-k">
 
     <div class="container">
         <div class="media-container-row content text-white">
@@ -326,9 +247,8 @@
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/datatables/jquery.data-tables.min.js"></script>
-  <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
